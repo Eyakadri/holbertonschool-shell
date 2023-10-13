@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -wholename "/etc/passwd" | xargs grep -l abc | wc -l
+grep -l /etc/passwd 
